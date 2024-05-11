@@ -1,2 +1,3 @@
 libpthread-setaffinity.so
 .vscode
+.gitignore
