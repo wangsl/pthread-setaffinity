@@ -1,5 +1,6 @@
 
 // gcc -fPIC -shared -Wl,-soname,libpthread-setaffinity.so -ldl -o libpthread-setaffinity.so pthread-setaffinity.c
+// export LD_PRELOAD=libpthread-setaffinity.so
 
 #define _GNU_SOURCE
 
